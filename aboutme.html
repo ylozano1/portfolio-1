@@ -2,7 +2,19 @@
 <html>
   <title>Yanet >.< </title>
 <body>
-<h1>Yanet Nunez Galvan</h1>
+<h1 id="demo">Yanet Nunez Galvan</h1>
+ <script>
+document.getElementById("demo").addEventListener("mouseover", mouseOver);
+document.getElementById("demo").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+    document.getElementById("demo").style.color = "green";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>
 <img onmouse="bigImg(this)" src="https://github.com/Yanet-Nunez/portfolio/blob/master/snapchat%20pic.png?raw=true" width="178" height="316"> 
 <h3>Short Bio</h3>
   <p>I am a 17 year old from the small city of Santa Rosa, California. I have three brother one older and two younger. I love photography and film editing however i mostly enjoy watching video or movies on Youtube and Netflix. I do not like heights or sea food. One fun fact about me is that I dress up for halloween every year as a zombie or some other scary character.</p> 
