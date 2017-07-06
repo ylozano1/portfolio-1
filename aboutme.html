@@ -2,6 +2,67 @@
 <html>
   <title>Yanet >.< </title>
 <head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" context="width=device-width, initical-scale=1">
+  <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body {
+      background-color: #000;
+    }
+    .fil-in-text {
+      list-style: none;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50) translateV(-50);
+    }
+    .fly-in-text li {
+      display: inline-block;
+      margin-right:50px;
+      font-family: Open Sans, Arial;
+      font-weight: 300;
+      font-size: 4e,;
+      color: #fff;
+      opacity: 1;
+      transition: all 2.5s ease;
+    }
+      .fly-in-text li:lasy-child {
+        margin-right: 0;
+      }
+       .fly-in-text.hidden li {
+         opacity: 0;
+      }
+    .fly-in-text li:nth-child(1){transform:translaxteX(-200px) translaxteY(-200px);} 
+    .fly-in-text li:nth-child(2){transform:translaxteX(20px) translaxteY(100px);}
+    .fly-in-text li:nth-child(3){transform:translaxteX(-150px) translaxteY(-80px);}
+    .fly-in-text li:nth-child(4){transform:translaxteX(10px) translaxteY(-200px);}
+    .fly-in-text li:nth-child(5){transform:translaxteX(-300px) translaxteY(-200px);}
+    .fly-in-text li:nth-child(6){transform:translaxteX(20px) translaxteY(-20px);}
+    .fly-in-text li:nth-child(7){transform:translaxteX(30px) translaxteY(200px);}
+  </style>
+</head>
+<body>
+  
+  <ul class="fly-in-text hidden">
+    <li>[</li>
+    <li>Y</li>
+    <li>A</li>
+    <li>N</li>
+    <li>E</li>
+    <li>T</li>
+    <li>]</li>
+  </ul>
+  
+  <script type="text/javascript">
+      $(function() {
+        setTimeout(function () {
+            $('.fly-in-text').removeClass('hidden');
+        }, 500); 
+      })();
+  </script>
 <style> 
 #myDIV {
     border: 1px solid black;
