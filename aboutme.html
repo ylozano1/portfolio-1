@@ -14,52 +14,22 @@ img{
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</style>
 </head>
 <body>
-
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Welcome to Scary Cat</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <img src="ghostgif.png" alt="Ghost Gif" align="middle" style="width:150px;height:
-        <li class="active"><a href="#">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore Haunted Placxes <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Haunted Places</a></li>
-            <li><a href="#">Creepy Pasta</a></li>
-          </ul>
-        </li>
-        <li><a href="#">About Us</a></li>
-        <button class="btn btn-danger navbar-btn">Emergencies</button>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+      <a class="navbar-brand" href="#"> Welcome to Scary Cat!!</a>
     </div>
   </div>
 </nav>
-  
 <div class="container">
-
-</body>
-  
-  
-  
+</div> 
 <style>
 body {
     font-family: "Lato", sans-serif;
 }
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -72,7 +42,6 @@ body {
     transition: 0.5s;
     padding-top: 60px;
 }
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -81,11 +50,9 @@ body {
     display: block;
     transition: 0.3s;
 }
-
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -93,19 +60,40 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
 </style>
 </head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <img src="ghostgif.png" alt="Ghost Gif" align="middle" style="width:150px;height:109px;">
+  <a href="#">Explore Haunted Places</a>
+  <a href="#">Creepy Pasta</a>
+  <a href="#">About Us </a>
+  <button class="btn btn-danger navbar-btn">Emergencies</button>
+</div>
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script> 
   <body style="background-color:lightgrey;">
 <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+<body>
 
 <div class="center-block">                 
   <img src="ghost.png" alt="Responsive Image" align="middle" weight="2560" height="1440">
@@ -113,5 +101,3 @@ body {
 <p> This WebApp is centered around the supernatural. Learn what areas to avoid if you are deathly afraid, and what areas to explore if you are a fan, or if ghosts really do exist.</p> 
 </body>
 </html>
- 
- 
