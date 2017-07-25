@@ -25,11 +25,6 @@ img{
       
       <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <img src="ghostgif.png" alt="Ghost Gif" align="middle" style="width:150px;height:109px;">
-      <a href="#">Explore Haunted Places</a>
-      <a href="#">Creepy Pasta</a>
-      <a href="#">About Us </a>
-      <button class="btn btn-danger navbar-btn">Emergencies</button>
       </div>
     </div>
   </div>
@@ -37,6 +32,58 @@ img{
 
 <div class="container">
 </div> 
+ 
+  
+   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Welcome to Scary Cat</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <img src="ghostgif.png" alt="Ghost Gif" align="middle" style="width:150px;height:
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Explore Haunted Placxes <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Haunted Places</a></li>
+            <li><a href="#">Creepy Pasta</a></li>
+          </ul>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <button class="btn btn-danger navbar-btn">Emergencies</button>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Collapsible Navbar</h3>
+  <p>In this example, the navigation bar is hidden on small screens and replaced by a button in the top right corner (try to re-size this window).
+  <p>Only when the button is clicked, the navigation bar will be displayed.</p>
+</div>
+
+</body>
+  
+  
+  
 <style>
 body {
     font-family: "Lato", sans-serif;
