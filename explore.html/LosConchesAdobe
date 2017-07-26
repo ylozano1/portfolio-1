@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 <body style="text-align:center;">
+<style>
+h1 {
+    text-shadow: 3px 2px orange;
+}
+</style>
 
-<p><b>Los Coches Adobe</b></p>
+
+<h1>Los Coches Adobe</h1>
 <p>Soledad, Ca</p>
 <img src="coches.jpg" alt="Downey" style="width:100%;">
 <img scr="coches2.jpg" alt="Downey2" style="width:100%;">
