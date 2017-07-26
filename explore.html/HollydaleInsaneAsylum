@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body style="text-align:center;">
+<style>
+h1 {
+    text-shadow: 3px 2px orange;
+}
+</style>
 
-<p><b>Hollydale Insane Asylum</b></p>
+<h1>Hollydale Insane Asylum<h1>
 <p>Downey, Ca</p>
 <img src="downey.jpg" alt="Downey" style="width:100%;">
 <img scr="downey2.jpg" alt="Downey2" style="width:100%;">
