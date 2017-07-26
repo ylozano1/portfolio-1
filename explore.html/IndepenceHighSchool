@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body style="text-align:center;">
+<style>
+h1 {
+    text-shadow: 3px 2px orange;
+}
+</style>
 
-<p><b>Independence High School</b></p>
+<h1>Independence High School</h1>
 <p>San Jose, Ca</p>
 <img src="sanjose.jpg" alt="Independence High School" style="width:100%;">
 <p>Being one of the most haunted places in San Jose, people say that they are often visited by a ghost named George
